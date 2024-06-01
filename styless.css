@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: "Myfont";
+    margin: 0;
+    padding: 0;
+    background-color: hsl(47, 88%, 63%);
+
+
+}
+
+ul {
+    list-style: none;
+}
+
+.img-main {
+    width: 338px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 24px;
+
+}
+
+.main {
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px black;
+    margin-top: 200px;
+    width: 384px;
+    height: 522px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.main-first-p {
+    padding: 2px;
+    font-weight: 300;
+}
+
+.footer-avatar {
+    margin-right: 12px;
+
+}
+
+.footer-p {
+    font-weight: 700;
+}
+
+.html-p {
+    font-size: 24px;
+
+    font-weight: 900;
+}
+
+.footer-div {
+    padding-left: 36px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.learning {
+    border-radius: 4px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    width: 82px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%)
+}
+
+.aciklama {
+    font-weight: 300;
+    color: hsl(0, 0%, 50%)
+}
